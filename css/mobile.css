@@ -1,0 +1,799 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+.contacto .contenido-seccion {
+
+    padding-top: 20px;
+    background-color: #00afe8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.contacto .contenido-seccion .redes {
+
+    text-align: center;
+}
+
+.contacto .contenido-seccion .redes a {
+
+    font-size: 1.7rem;
+    padding: 15px;
+
+}
+
+
+
+.contacto .contenido-seccion .contactos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    padding-left: 30px;
+    text-align: center;
+
+
+
+}
+
+
+.contacto .contenido-seccion .contactos a {
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* secion navegacion */
+
+.header{
+
+   background-color: #3d3d3d;
+   
+}
+
+.header .contenido-header .logo{
+
+ width: 100%;
+ height: 150px;
+ 
+   
+}
+
+.header .contenido-header .logo img{
+
+    width: 90%;
+    max-width: 300px;
+    margin: 10px;
+  
+}
+
+
+
+.header .contenido-header .logo .nav-bar{
+
+    font-size: 2.5rem;
+    position: absolute;
+    right:20px;
+
+}
+
+.header .contenido-header .menu{
+
+    
+    
+    display: none;
+    background-color: #ffffff;
+
+
+}
+
+.header .contenido-header .menu a{
+
+    
+    display: block;
+    width: 100%;
+    height: 3.5rem;
+    text-decoration: none;
+    color: #333333;
+    padding: 15PX;
+   
+
+}
+.header .contenido-header .menu span{
+
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+.fondo{
+ 
+    
+    height: 550px;
+    
+    background: linear-gradient(rgba(26, 26, 26, 0.575), rgba(0, 0, 0, 0.432)),
+    url("../Assets/fondoNevera600x450.jpg");
+    background-position-x:left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    position: relative;
+   
+    opacity: 0,3;
+   
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 10px;
+    
+    
+}
+
+.fondo .titulo-fondo{
+
+    font-size: 4rem;
+    color:rgb(255, 255, 255);
+    text-align: center;
+   
+}
+
+.fondo-801px{
+
+   display: none;
+
+}
+
+.fondo-801px  .titulo-fondo {
+
+    font-size: 550%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+.fondo .servicio{
+
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+   
+    
+}
+
+.fondo-801px .servicio{
+
+    font-size: 350%;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+
+.exchange{
+
+    background-image:url("https://www.argenclimaservice.com.ar/wp-content/uploads/2020/05/f4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 1.5rem;
+    font-family:'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;    
+   
+
+}
+
+
+.exchange .contenedor .tabla-title {
+
+    min-width: 320px;
+    text-align: center;
+    font-size: 4.0rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 5px auto;
+    color: #333333;
+    padding-top: 50px;
+    
+    
+}
+.exchange .contenedor .list-services{
+    
+    padding-left: 40px ; /* left izqierda*/
+    list-style: disc;
+
+    min-width: 300px;
+
+
+}
+
+.exchange .contenedor .list-services li {
+
+    width:auto;
+    font-family: "Open Sans";
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-right:1px;
+    color:#333333;
+    text-align:left;
+    padding-top: 15px;
+    
+   
+}
+
+
+.exchange .formulario {
+    width: 80%;
+    margin: 20px auto;
+    border: solid 1px red;
+    background-color: #333333;
+    
+}
+
+.exchange .formulario .title-formulario {
+    font-size: 2.4rem;
+    color:#ffffff;
+    text-align: center;
+    line-height:1.2;
+    font-weight:400;
+    font-family:'Titillium Web', sans-serif;
+    padding: 20px;
+}
+
+.exchange .formulario input {
+
+    width:90%;
+    padding: 10px;
+    border-radius: 1.5rem;
+    margin: 1.4rem 1.3rem;
+
+   
+    border-color: #0A3DA3;
+    
+}
+
+
+.exchange .formulario textarea {
+
+    width: 90%;
+    border-radius: 1rem;
+    border: 0px 10px;
+    margin: 1.4rem 1.3rem;
+    left: 2.5rem;
+    border-color: #84DAFF;
+
+}
+
+.exchange .formulario .boton{
+
+    width: 25%;
+
+}
+
+
+
+.slider {
+
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.main-articulo__card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 190px;
+    height: 230px;
+    margin-top: 50px;
+    background-color: rgb(244, 254, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 50px 2px;
+    box-shadow: 0px 4px 8px rgba(42, 39, 46, 0.308);
+
+}
+
+.main-articulo__card .card__titulo {
+
+    position: absolute;
+    left: calc(30% - 20px);
+    width: 120px;
+    margin-top: -29px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 7px;
+    padding: 2px;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(207.8deg, #8BD2EF 16.69%, #0A3DA3 100%);
+
+
+
+}
+
+
+.main-articulo__card .card__icono img {
+
+    width: 72px;
+    height: 72px;
+    margin: 20px auto;
+
+}
+
+
+
+.card__icono--domicilio {
+
+    margin: 50px;
+}
+
+.main-articulo__card .card__parrafo {
+
+    font-size: 1.7rem;
+    color: #333333;
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+.card__link {
+    display: block;
+    width: 175px;
+    height: 50px;
+    font-size: 2.0rem;
+    margin-top: 10px;
+    margin: 9px auto;
+    border: solid 2px rebeccapurple;
+    border-radius: 7px;
+    padding-top: 10px;
+
+}
+
+.card__link a {
+    text-align: center;
+    text-decoration: none;
+    color: #3f3f3f;
+    font-weight: 700;
+
+
+}
+
+.card__link span {
+    display: inline-block;
+    width: 20PX;
+    height: 20px;
+    margin-left: 7PX;
+    margin-bottom: 2px;
+    vertical-align: text-bottom;
+
+}
+
+
+
+.title-servicios {
+
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 30px;
+    font-size: 2.4rem;
+    margin: 1px auto;
+    color: #EA3030;
+    text-align: center;
+
+}
+
+.title-servicio-secundario {
+
+    font-size: 4.0rem;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+}
+
+
+
+.parrafo-title {
+
+    color: #3f3f3f;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400px;
+    line-height: 1.5;
+}
+
+.parrafo {
+    color: #3f3f3f;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400px;
+    line-height: 1.5;
+
+}
+
+
+strong {
+    text-align: center;
+    font-weight: 700;
+}
+
+.img-pago img {
+
+    width: 100%;
+    max-width: 425px;
+    height: 70px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    margin: 20px auto;
+    display: block;
+    
+}
+
+.fondo-contactenos{
+
+    background-image: url("https://www.argenclimaservice.com.ar/wp-content/uploads/2020/05/contacto.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+
+.contactenos {
+
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: solid 1px #EA3030;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.title-contacto {
+    font-size: 4.0rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #333333;
+   
+}
+
+.servicio-link {
+
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 2.8rem;
+    color: #333333;
+
+}
+
+.servicio-img {
+    display: block;
+    height: 50px;
+    margin: 15px auto;
+    left: calc(50% - 10px);
+
+}
+
+.correo {
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 0;
+    font-weight: 700;
+    color: #333333;
+
+
+}
+
+footer {
+
+    height: 100px;
+    text-align: center;
+    margin-top: 1px;
+    background-color: #333333;
+    
+}
+
+
+.footer-txt {
+
+    font-size: 1.4rem;
+    color: #f44336;
+
+}
+
+.footer-txt h4{
+
+    display: inline-block;
+    color:#919191;
+
+}
+
+
+.footer-txt p {
+
+    margin: 7px;
+    color: #919191;
+    font-size: 1.5rem;
+
+}
+
+.footer-link-redes {
+
+    margin-top: 25px;
+    padding: 5px;
+
+
+}
+
+.footer-link-redes a {
+
+    padding: 12px;
+}
+
+.footer-link-redes img {
+
+    height: 20px;
+
+
+}
+
+@media screen and (min-width:768px) {
+
+    .contacto .contenido-seccion .contactos {
+
+        display:inline;
+        flex-direction: row;
+    
+    }
+
+    .header .contenido-header .logo .nav-bar{
+
+        font-size: 2.5rem;
+        position: absolute;
+        right:20px;
+        top: 100px;
+
+    }
+
+    .fondo{
+
+        height: 550px;
+        justify-content:center;
+        gap: 40px;
+
+    }
+    
+    .fondo .titulo-fondo{
+
+        font-size: 550%;
+       
+   
+    }
+
+    .fondo .servicio{
+
+        font-size: 350%;
+    
+        
+    }
+    
+}
+
+
+@media screen and (min-width:800px) {
+
+    .contacto .contenido-seccion {
+
+        
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-content: flex-start;
+        padding-top: 0px;
+        height: 50px;
+        
+    
+    }
+
+    #conte{
+
+        width: 100%;
+        height: 900px;
+       
+        background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.568)),
+        url("../Assets/reparacionneveras.png");
+       
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position-x: center;
+        background-attachment:fixed;
+
+        position: relative;
+
+
+    }
+
+    .header{
+
+        
+        background-color:#ffffff00;
+        
+        border: none;
+       
+    }
+   
+    .header .contenido-header{
+
+        background-color:none;
+
+
+    }
+
+    .header .contenido-header .logo .nav-bar{
+
+        display: none;
+    }
+
+    .header .contenido-header .menu{
+
+        display:inline-flex;
+        flex-wrap: nowrap;
+        justify-items: baseline;
+        background-color: #ffffff00;
+        width: 100%;
+        height: 90px;
+    
+    
+    }
+
+
+    .header .contenido-header .menu a{
+
+       
+        text-decoration: none;
+        color: #333333;
+       
+    
+    }
+
+    .header .contenido-header .menu span{
+        font-size: 1.6rem;
+       color: #ffffff;
+      
+       
+    
+    }
+    
+
+    .fondo{
+
+       
+        display:none;
+
+           
+    }
+
+    .fondo-801px{
+
+        
+        display: inline-block;
+        
+        
+
+    }
+
+
+    .exchange{
+
+        display: flex;
+        flex-direction:row;
+       
+       
+    
+    }
+
+    .exchange .contenedor{
+        
+        width: 60%;
+        padding: 20px;
+
+    }
+
+    .exchange .formulario{
+        
+        width: 30%;
+
+    }
+
+    .exchange .contenedor .list-services li {
+
+        width:auto;
+        font-family: "Open Sans";
+        line-height: 1;
+        font-size: 1.8rem;
+        font-weight: 400;
+        padding-right:1px;
+        color:#333333;
+        text-align:left;
+        padding-top: 15px;
+        
+       
+    }
+
+
+    .container-parrafos {
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    footer {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+        
+    }
+
+
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
